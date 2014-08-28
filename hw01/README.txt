@@ -4,7 +4,7 @@ This program allows the user to create an empty list and then fill the list with
 
 Current functionality/status: I’ve tested the code to make sure it can handle the 5 requirements laid out in the HW01 assignment. To my knowledge the program is working on all of these accounts. 
 
-Updates: -added States.csv to databases and included it’s in the driver program. Made text more general. 
+Updates: -added States.csv to databases and included it in the driver program. Made text more general. 
 
 Files:
 
