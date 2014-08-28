@@ -42,15 +42,15 @@ class BookList:
 
 	def searchList(self, searchTerm):
 		
-		hit = "This book/author is not on this list."
+		hit = "This entry is not on this list."
 
 		if (self.head.book or self.head.author) == searchTerm: 
-			hit = "This book/author was found, here is the full listing: \n" + str(self.head)
+			hit = "This entry was found, here is the full listing: \n" + str(self.head)
 		else:
 			mover = self.head.next
-			while hit == "This book/author is not on this list." and mover != None:
+			while hit == "This entry is not on this list." and mover != None:
 				if (mover.book or mover.author) == searchTerm:
-					hit = "This book/author was found, here is the full listing: \n" + str(mover)
+					hit = "This entry was found, here is the full listing: \n" + str(mover)
 				else:
 					mover = mover.next
 
