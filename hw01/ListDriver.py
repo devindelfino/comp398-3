@@ -55,7 +55,7 @@ def main():
 
 	# (3: populate the list from a flat file database)
 
-	# open my database and add each item to BannedBooks
+	# open my database and add each item to StatesAbb
 	# 'rU' instead of 'r' prevents a csv.Error: 
 	# (new-line character seen in unquoted field)
 	with open('statesabb.csv', 'rU') as csvfile:			
@@ -67,7 +67,7 @@ def main():
 	# (4: search the list for a value)
 
 	# if found, should return full node information
-	# otherwise, should return, "This book/author is not on this list":
+	# otherwise, should return, "This entry is not on this list":
 	StatesAbb.searchList("New York")				 		# hit
 	print ""
 	StatesAbb.searchList("Puerto Rico")						# miss
