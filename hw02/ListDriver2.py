@@ -14,13 +14,13 @@
 """
 
 import csv
-import LinkedList
+import LinkedList2
 
 def main():
     """Contains the test suite to demonstrate functioning code.
     """
     # (1: create an empty list)
-    banned_books = LinkedList.BookList()
+    banned_books = LinkedList2.BookList()
 
     # (2: add a single node to the list)
     banned_books.new_book("Gee", "Whiz")
@@ -56,14 +56,14 @@ def main():
 
     # if asked to print an empty list, "This list is empty" should appear:
     print "\n =========== \n"
-    empty_list = LinkedList.BookList()
+    empty_list = LinkedList2.BookList()
     empty_list.printall()
 
     # ========================================
     print "\n =========== \n"
 
     # (1: create an empty list)
-    states = LinkedList.BookList()
+    states = LinkedList2.BookList()
 
     # (2: add a single node to the list)
     states.new_book("Virgin Islands", "VI")
