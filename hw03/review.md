@@ -8,25 +8,25 @@ This code was written in Python, and reviewed according to the [PEP 8](http://le
 
 Structure: 
 	
-	Files are clear and direct. The README.md should maybe include a list of the files and state which does what -- however obviously they're well named files so it's pretty self explanatory. 
+Files are clear and direct. The README.md should maybe include a list of the files and state which does what -- however obviously they're well named files so it's pretty self explanatory. 
 
 Code Layout:
 
-	Indentation: Lines 2, 3, 8 and 127 of linkedlist.py exceed the 79 character maximum, otherwise good. 
+Indentation: Lines 2, 3, 8 and 127 of linkedlist.py exceed the 79 character maximum, otherwise good. 
 
-	Tabs/Spacing: Tabs are used, spaces would be preferable. (4 spaces per tab.)
+Tabs/Spacing: Tabs are used, spaces would be preferable. (4 spaces per tab.)
 
-	Newlines: Inconsistent with use of one or two newlines. Only one newline should be used to separate method functions. 
+Newlines: Inconsistent with use of one or two newlines. Only one newline should be used to separate method functions. 
 
-	Imports: Good
+Imports: Good
 
-	Whitespace in Expressions/Statements: Good
+Whitespace in Expressions/Statements: Good
 
-	Comments: Inline comments should be at least two spaces away from the end of the statement. Docstrings should start on the first line of the class/function/method/etc., not preceeding it. 
+Comments: Inline comments should be at least two spaces away from the end of the statement. Docstrings should start on the first line of the class/function/method/etc., not preceeding it. 
 
-	Variable Naming: Source code names are good, as are class names. However function/method names should be lowercase, not camelcase, with the use of underscore as necessary (to improve readability).
+Variable Naming: Source code names are good, as are class names. However function/method names should be lowercase, not camelcase, with the use of underscore as necessary (to improve readability).
 
-	Class Definitions: Classes are defined the old way, should inherent 'object' as opposed to being empty. I.e., "LinkedList(object)" as opposed to "LinkedList()."
+Class Definitions: Classes are defined the old way, should inherent 'object' as opposed to being empty. I.e., "LinkedList(object)" as opposed to "LinkedList()."
 
 -Note: running the code through Pylint, linkedlist.py got a score of -6.81/10, and driver.py got a score of 0/10. I think most of the issue was though that tabs were used instead of spacing. 
 
