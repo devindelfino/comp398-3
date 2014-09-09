@@ -4,9 +4,15 @@ A First Level Header
 A Second Level Header
 ---------------------
 
-Now is the time for all good men to come to the aid of their country. This is just a regular paragraph. *This is emphasized inside here!* The quick brown fox jumped over the lazy dog's back.
-
 ### Header 3
+
+#### Header 4
+
+##### Header 5
+
+###### Header 6
+
+Here is a basic paragraph.
 
 > This is a blockquote.
 > 
@@ -30,6 +36,10 @@ __Strong Emphasis Two__
 +   Plus line 2
 +   Plus line 3
 
+-   Dash line 1
+-   Dash line 2
+-   Dash line 3
+
 1.   Ordered line 1
 2.   Ordered line 2
 3.   Ordered line 3
@@ -38,4 +48,4 @@ This is an [example link](http://www.google.com).
 
 Here lies an image ![alt text](/path/to/img.jpg)
 
-Now we're `testing` code.
+The following is code: `cOdEd0c`

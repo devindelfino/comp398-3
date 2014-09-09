@@ -9,7 +9,11 @@ import Converter
 
 
 def main():
-    """Demonstrates the functionality of Converter.py
+    """Demonstrates the functionality of Converter.py by printing
+    converted files output.
+
+    Returns: 
+    None
     """
 
     print Converter.Converter("test.md")
