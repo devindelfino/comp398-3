@@ -44,7 +44,7 @@ __Strong Emphasis Two__
 2.   Ordered line 2
 3.   Ordered line 3
 
-This is an [example link](http://www.google.com).
+This is an [example link](http://www.google.com). [second link](www.cheese.com). 
 
 Here lies an image ![alt text](/path/to/img.jpg)
 
