@@ -2,24 +2,23 @@
 body {
 	font-family: Helvetica;
 	padding: 0px;
-	margin: 5px;
 }
 
 .nutritionbody {
 
-	width: 23%;
-	height: 100%;
+	width: 313px;
+	height: 655px;
 	border: 2px black solid;
 	padding: 5px;
 }
 
 h1 {
-	font: helvetica black;
-	font-size: 41px;
+	font-size: 40px;
 	font-weight: bolder;
-	text-align: justify;
+	text-align: center;
 	padding: 0px;
 	margin: 0px;
+	line-height: .8;
 }
 
 p {
@@ -38,7 +37,7 @@ pre {
 	background-color: black;
 	display: block;
 	margin-top: 2px;
-	margin-bottom: 4px;
+	margin-bottom: 5px;
 }
 
 .smallboldrect {
@@ -75,10 +74,42 @@ pre {
 }
 
 #dailyvalue {
+	margin-top: 2px;
 	text-align: right;
 }
 
 .indentedtext {
 	width: 100%;
 	padding-left: 20px;
+	line-height: .8;
 }
+
+#percentwarning {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 12px;
+}
+
+#bottomtable {
+	width: 313px;
+	font-size: 12px;
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1;
+	padding: 0px;
+}
+
+#bottomtable th {
+	border-bottom: 1px solid gray;
+	font-weight: 500;
+	margin-bottom: 2px;
+	padding-bottom: 3px;
+	margin-right: 0px;
+	padding-right: 0px;
+}
+
+#bottomtable td {
+	margin-left: 0px;
+
+}
+
