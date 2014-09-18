@@ -102,14 +102,22 @@ html {
 code {
 	font-family: 'Neuton', serif;
 	font-size: 30px;
+} 
+
+.burgerblock {
+	width: 800px;
+	height: 700px;
+	background-color: #E0FFFF;
+	border: 4px solid #ADD8E6;
+	border-radius: 50px;
+	padding: 10px;
 }
 
 .decoration {
 	width: 500px;
 	text-align: center;
 	line-height: 5px;
-	margin: 0px;
-	padding: 0px;
+	margin-left: 150px;
 	border:2px solid #CC6600;
 	border-radius: 100px;
 	border-left: transparent;
@@ -157,8 +165,7 @@ code {
 }
 
 #text-shadow {
-	margin-left: -150px;
-	margin-right: -150px;
+	margin-left: 50px;
 }
 
 #strongtext {
