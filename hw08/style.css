@@ -9,6 +9,10 @@ html {
 	font-weight: 800;
 }
 
+.vert-align {
+	font-size: 30px;
+}
+
 .titleintro {
 	width: 500px;
 	text-align: center;
@@ -99,6 +103,12 @@ html {
 	padding: 20px 100px;
 }
 
+#vertimage {
+	padding: 20px 100px;
+	display: block;
+	float: left;
+}
+
 code {
 	font-family: 'Neuton', serif;
 	font-size: 30px;
@@ -117,7 +127,9 @@ code {
 	width: 500px;
 	text-align: center;
 	line-height: 5px;
-	margin-left: 150px;
+	margin-left: 50px;
+	margin-top: 20px;
+	padding: 0px;
 	border:2px solid #CC6600;
 	border-radius: 100px;
 	border-left: transparent;
@@ -127,6 +139,13 @@ code {
 .burger {
 	margin-left: -100px;
 	margin-right: -100px;
+}
+
+#burgerpicture {
+	float: right;
+	display: block;
+	margin-right: -200px;
+	margin-top: -300px;
 }
 
 #overline {
@@ -155,17 +174,30 @@ code {
 #vshadow {
 	letter-spacing: 15px;
 	color: #ff0000;
-	text-shadow: 0 10px #FF9999;
+	text-shadow: 0 10px 0 #FF9999;
 }
 
 #hshadow{
 	letter-spacing: 5px;
 	color: #660000;
-	text-shadow: 10px 0 #CC9966;
+	text-shadow: 10px 0 5px #CC9966;
 }
 
-#text-shadow {
-	margin-left: 50px;
+
+.direction-override {
+	line-height: 40px;
+	font-size: 30px;
+	float: right;
+	margin-right: -450px;
+	margin-top: -330px;
+}
+
+#direction {
+	text-shadow: -2px 0 #FF9933, 0 1px #FF9933, 1px 0 #FF9933, 0 -1px #FF9933;
+	font-weight: bold;
+	color: #FFFF99;
+	direction: rtl;
+	unicode-bidi: bidi-override;
 }
 
 #strongtext {
@@ -184,7 +216,12 @@ code {
 	text-align: right;
 }
 
-#box, #box2 {
+#align_just {
+	text-align: justify;
+	width: 750px;
+}
+
+.box {
 	border: 2px solid;
 	width: 800px;
 	height: 350px;
@@ -194,8 +231,12 @@ code {
 	line-height: 150px;
 }
 
-#line-height-small {
-	line-height: 22px;
+#line-height-half {
+	line-height: 50%;
+}
+
+#line-height-num {
+	line-height: 2;
 }
 
 #wider, #wider2, #wider3 {
@@ -203,14 +244,16 @@ code {
 }
 
 #indent-small {
+	/* values can be expressed as px, pt, cm, em */
 	text-indent: 20px;
 }
 
 #indent-medium {
-	text-indent: 90px;
+	text-indent: 75%;
 }
 
 #indent-large {
+	/* values can also be inherit or initial */
 	text-indent: 200px;
 }
 
@@ -228,6 +271,23 @@ code {
 	vertical-align: sub;
 }
 
+#align-top {
+	text-align: center;
+	vertical-align: top;
+}
+
+#align-middle {
+	vertical-align: middle; 
+	vertical-align: 50%;
+	vertical-align: text-bottom;
+	vertical-align: text-top;
+	vertical-align: -10px;
+}
+
+#align-bottom {
+	text-align: center;
+	vertical-align: bottom;
+}
 #ltr {
 	direction: ltr;
 }
@@ -266,4 +326,17 @@ code {
 
 #inline_please {
 	min-width: 800px;
+}
+
+#hebrew {
+  font-size: 40px;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  text-align: right;
+  margin-top: 10px;
+}
+
+#hebrewcode {
+	padding-top: 40px;
+	margin-left: 250px;
 }
