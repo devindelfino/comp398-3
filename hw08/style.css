@@ -312,6 +312,15 @@ code {
 	word-spacing: 47px;
 }
 
+.move_letters {
+	letter-spacing: -12px;
+	-webkit-animation: movelets 8s infinite;
+}
+
+@-webkit-keyframes movelets {
+	50% {letter-spacing: 47px;}
+}
+
 #no_wspace {
 	white-space: nowrap;
 }
