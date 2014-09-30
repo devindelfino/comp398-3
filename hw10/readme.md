@@ -6,7 +6,7 @@ This gatra.geojson file contains the four stops on the Gatra 140 route, identifi
 -  point: coordinates
 -  name: string
 -  address: string
--  stop: number (first-fourth)
+-  stop: number (1-4)
 -  origin: boolean (first stop)
 -  destination: boolean (last stop)
 -  nearby attractions: list of strings
