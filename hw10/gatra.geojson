@@ -1,0 +1,19 @@
+{ "type": "FeatureCollection",
+    "features": [
+	{	"type": "Feature",
+  		"geometry": {"type": "Point", "coordinates": [41.9662416, -71.18590699999999]},
+  		"properties": {"name": "Howard Street, Wheaton College"}
+		},
+	{	"type": "Feature",
+  		"geometry": {"type": "Point", "coordinates": [41.982476, -71.2093049]},
+  		"properties": {"name": "Great Woods Plaza"}
+		},
+	{	"type": "Feature",
+  		"geometry": {"type": "Point", "coordinates": [42.0127396, -71.23101609999998]},
+  		"properties": {"name": "Mansfield Crossing"}
+		},
+	{	"type": "Feature",
+  		"geometry": {"type": "Point", "coordinates": [42.032205, -71.21999399999999]},
+  		"properties": {"name": "Mansfield MBTA"}
+		}]
+}
