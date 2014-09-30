@@ -1,7 +1,7 @@
 { "type": "FeatureCollection",
     "features": [
 	{	"type": "Feature",
-  		"geometry": {"type": "Point", "coordinates": [41.9662416, -71.18590699999999]},
+  		"geometry": {"type": "Point", "coordinates": [-71.18590699999999, 41.9662416]},
   		"properties": {"name": "Howard Street, Wheaton College",
   						"address": "15 Howard St, Norton, MA 02766",
   						"stop": 1,
@@ -22,7 +22,7 @@
   					}
 		},
 	{	"type": "Feature",
-  		"geometry": {"type": "Point", "coordinates": [41.982476, -71.2093049]},
+  		"geometry": {"type": "Point", "coordinates": [-71.2093049, 41.982476]},
   		"properties": {"name": "Great Woods Plaza",
   						"address": "171 Mansfield Ave, Norton, MA 02766",
   						"stop": 2,
@@ -47,7 +47,7 @@
   					}
 		},
 	{	"type": "Feature",
-  		"geometry": {"type": "Point", "coordinates": [42.0127396, -71.23101609999998]},
+  		"geometry": {"type": "Point", "coordinates": [-71.23101609999998, 42.0127396]},
   		"properties": {"name": "Mansfield Crossing",
   						"address": "280 School St, Mansfield, MA 02048",
   						"stop": 3,
@@ -74,7 +74,7 @@
   					}
 		},
 	{	"type": "Feature",
-  		"geometry": {"type": "Point", "coordinates": [42.032205, -71.21999399999999]},
+  		"geometry": {"type": "Point", "coordinates": [-71.21999399999999, 42.032205]},
   		"properties": {"name": "Mansfield MBTA",
   						"address": "1 Mansfield Ave, Mansfield, MA 02048",
   						"stop": 4,
