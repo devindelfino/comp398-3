@@ -129,11 +129,7 @@
             -71.18777453899384,
             41.967056927520964
           ]
-        ],
-         "properties": {
-            stroke: "#1087bf",
-            stroke-width: 6,
-            }
+        ]
       }
     },
     {
@@ -303,10 +299,13 @@
             42.01423657905862
           ]
         ],
-         "properties": {
-            stroke: "#1087bf",
-            stroke-width: 6,
-            }
+        properties: {
+description: "",
+id: "marker-i11piqxo3",
+stroke: "#1087bf",
+stroke-opacity: 1,
+stroke-width: 4,
+title: ""
       }
     },
     {
@@ -359,11 +358,7 @@
             -71.22000932693481,
             42.03279901538554
           ]
-        ],
-         "properties": {
-            stroke: "#1087bf",
-            stroke-width: 6,
-            }
+        ]
       }
     }
   ]
